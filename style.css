@@ -1,0 +1,208 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg,black, #1877F2, black);
+    background-size: contain;
+
+  }
+  
+  .container {
+    background: #fff;
+    padding: 3rem;
+    border-radius: 2rem;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+   margin-top: 20rem;
+    border: 3px solid black;
+    margin-bottom: 15rem;
+  }
+  
+  h1 {
+    margin-bottom: 2rem;
+    color: #333;
+    font-size: 2.5rem;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  .input {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+   
+  }
+  
+  input:focus {
+    border-color: #1877F2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(116, 235, 213, 0.5);
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.8rem;
+    background: #1877F2;
+    border: none;
+    border-radius: 8px;
+    color: #fafafa;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.5s ease;
+  }
+  
+  button:hover {
+    background: #1876f293;
+    color: rgb(17, 17, 17);
+    border: 2px solid black;
+  }
+  
+  #userError {
+    color: #e74c3c;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+   display: none;
+  }
+  #emailError {
+    color: #e74c3c;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+   display: none;
+  }
+  #passwordError {
+    color: #e74c3c;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+   display: none;
+  }
+  #cnfrmError {
+    color: #e74c3c;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+   display: none;
+  }
+  #nameError {
+    color: #e74c3c;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+   display: none;
+  }
+  #fnameError {
+    color: #e74c3c;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+   display: none;
+  }
+
+  /* Media Query for Tablets and Smaller Screens */
+@media (max-width: 768px) {
+  body {
+    margin: 2rem;
+    height: auto; /* Ensures body adapts to content height */
+  }
+
+  .container {
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  label {
+    font-size: 0.9rem;
+  }
+
+  input {
+    padding: 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 0.6rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  body {
+    margin: 1rem;
+  }
+
+  .container {
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  label {
+    font-size: 0.8rem;
+  }
+
+  input {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  button {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+ /* User Information */
+ .info-container{
+  background: #fff;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: 3px solid black;
+
+   }
+   
+  .info-container h1{
+    margin-bottom: 2rem;
+    color: #333;
+    font-size: 2rem;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+   }
+   
+  .info-container p{
+    color: #555;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+   }
+ 
+  
+  
